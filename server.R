@@ -9,10 +9,10 @@ require(png)
 #  untar("inception-bn.tar.gz")
 #}
 
-if (!file.exists("synset.txt")) {
-  download.file("http://data.mxnet.io.s3-website-us-west-1.amazonaws.com/mxnet/data/Inception.zip", destfile = "Inception.zip")
-  untar("Inception.zip")
-}
+#if (!file.exists("synset.txt")) {
+#  download.file("http://data.mxnet.io.s3-website-us-west-1.amazonaws.com/mxnet/data/Inception.zip", destfile = "Inception.zip")
+#  untar("Inception.zip")
+#}
 
 #model <<- mx.model.load("./Inception-BN", iteration = 126)
 model <<- mx.model.load("C:/liangjun/mxnet/PreTrainedModel/Inception/Inception_BN", iteration = 126)
