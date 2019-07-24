@@ -8,8 +8,7 @@ install.packages("imager", repos="https://cran.rstudio.com")
 shiny::runGitHub("thirdwing/mxnet_shiny")
 ```
 
-# 20190724
-# by nothk
+# 20190724 by nothk
 
 in file server.r
 
