@@ -4,10 +4,6 @@ require(shiny)
 require(jpeg)
 require(png)
 
-
-
-http://data.mxnet.io.s3-website-us-west-1.amazonaws.com/mxnet/data/Inception.zip
-
 #if (!file.exists("synset.txt")) {
 #  download.file("http://data.dmlc.ml/mxnet/models/imagenet/inception-bn.tar.gz", destfile = "inception-bn.tar.gz")
 #  untar("inception-bn.tar.gz")
