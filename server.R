@@ -14,7 +14,8 @@ if (!file.exists("synset.txt")) {
   untar("Inception.zip")
 }
 
-model <<- mx.model.load("./Inception-BN", iteration = 126)
+#model <<- mx.model.load("./Inception-BN", iteration = 126)
+model <<- mx.model.load("C:/liangjun/mxnet/PreTrainedModel/Inception/Inception-BN", iteration = 126)
 
 synsets <<- readLines("synset.txt")
 
