@@ -15,7 +15,7 @@ require(png)
 #}
 
 #model <<- mx.model.load("./Inception-BN", iteration = 126)
-model <<- mx.model.load("C:/liangjun/mxnet/PreTrainedModel/Inception/Inception_BN", iteration = 126)
+model <<- mx.model.load("C:/liangjun/mxnet/PreTrainedModel/Inception/Inception_BN", iteration = 39)
 
 #synsets <<- readLines("synset.txt")
 synsets <- readLines("C:/liangjun/mxnet/PreTrainedModel/Inception/synset.txt")
