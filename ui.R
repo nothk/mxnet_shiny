@@ -5,8 +5,8 @@ require(jpeg)
 require(png)
 
 shinyUI(pageWithSidebar(
-  headerPanel(title = 'Image Classification using MXNetR',
-              windowTitle = 'Image Classification using MXNetR'),
+  headerPanel(title = 'Image Classification using MXNetR liangj',
+              windowTitle = 'Image Classification using MXNetR liangj'),
   
   sidebarPanel(
     includeCSS('boot.css'),
